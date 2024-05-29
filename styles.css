@@ -47,7 +47,7 @@ body {
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
-    padding: 50px 200px 100px;
+    padding: 100px 200px 150px;
 }
 
 .hero-content {
@@ -127,4 +127,74 @@ body {
 .info-text {
     text-align: center;
     width: 200px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-content {
+    width: 820px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+}
+
+.quote-attribution {
+    font-size: 24px;
+    font-weight: bold;
+    color: #212936;
+    align-self: flex-end;
+    margin: 0;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.call-main {
+    display: flex;
+    background-color: #3882F6;
+    padding: 50px 100px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.call-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.call .signup-button {
+    border: 2px white solid;
+    align-self: center;
+}
+
+.call-title {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.call-text {
+    color: #E5E7EB;
+    margin-top: 8px;
 }
