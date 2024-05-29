@@ -42,3 +42,50 @@ body {
     text-align: center;
     height: 91.833px;
 }
+
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    padding: 100px 200px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
+.image-placeholder {
+    background-color: #6E747C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
+    width: 500px;
+}
+.hero-text {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    width: 400px;
+    margin-bottom: 0;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 450px;
+    margin: 8px 0px;
+}
+
+.signup-button {
+    background-color: #3882F6;
+    padding: 8px 32px;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 0;
+    align-self: flex-start;
+}
