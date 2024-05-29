@@ -32,3 +32,13 @@ body {
     color: #F9FAF8;
     margin-left: 200px;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    height: 91.833px;
+}
